@@ -13,9 +13,9 @@ function countword(paragraph, word1, word2) {
         }
     }
     if(count1 > count2) {
-        return `The word ${word1} more frequently occurred than ${word2}`;
+        return `The word {word1} more frequently occurred than {word2}`;
     }
-    return `The word ${word2} more frequently occurred than ${word2}`;
+    return `The word {word2} more frequently occurred than {word2}`;
 }
 
 //1b.
